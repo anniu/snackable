@@ -1,4 +1,4 @@
-package com.example
+package com.snackable.testapp
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO

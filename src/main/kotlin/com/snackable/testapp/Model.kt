@@ -1,4 +1,4 @@
-package com.example
+package com.snackable.testapp
 
 import kotlinx.serialization.Serializable
 

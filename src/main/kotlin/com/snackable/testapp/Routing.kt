@@ -1,4 +1,4 @@
-package com.example
+package com.snackable.testapp
 
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
@@ -43,13 +43,6 @@ fun Application.configureRouting(client: HttpClient) {
             )
 
             call.respond(fullMetadata)
-        }
-        get("test") {
-            val response = client.get("http://interview-api.snackable.ai/api/file/all?offset=0")
-
-            println(response)
-
-            call.respondText("asd", status = HttpStatusCode.OK)
         }
     }
 }
